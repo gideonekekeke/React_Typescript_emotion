@@ -1,13 +1,16 @@
 import React from "react";
-import Hero from "./components/Hero";
-import CompA from "./components/CompA";
+import Header from "./components/Header";
+import LandingPage from "./components/LandingPage";
+import Footer from "./components/Footer";
+import GlobalStyle from "./components/GlobalStyle";
 
 const App: React.FC = () => {
 	return (
 		<div>
-			<div>Landing page</div>
-			<Hero />
-			<CompA />
+			<GlobalStyle />
+			<Header />
+			<LandingPage />
+			<Footer />
 		</div>
 	);
 };
